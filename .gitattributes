@@ -1,0 +1,4 @@
+# The worktree lives on /mnt/c and is edited from Windows but committed via WSL git;
+# normalise to LF so the two sides do not fight over line endings.
+* text=auto eol=lf
+*.json text eol=lf

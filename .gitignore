@@ -1,0 +1,22 @@
+# Local research material — deliberately not published (see README).
+*.ipynb
+.ipynb_checkpoints/
+run_sage_local.py
+
+# Graph data files: generated locally with genreg / snarkhunter, too large to ship.
+*.g6
+20verticescubicGraphs.txt
+check-nearbip.txt*
+quasi-b-invariant-edges*.txt
+Generated_graphs.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/

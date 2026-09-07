@@ -1,0 +1,259 @@
+[
+  {
+    "name": "k4",
+    "g6": "C~",
+    "aliases": [
+      "complete graph 4"
+    ],
+    "order": 4,
+    "size": 6,
+    "notes": "K4: the smallest brick."
+  },
+  {
+    "name": "k33",
+    "g6": "EFz_",
+    "aliases": [
+      "complete bipartite 3 3"
+    ],
+    "order": 6,
+    "size": 9,
+    "notes": "K3,3; bipartite and matching covered."
+  },
+  {
+    "name": "cube",
+    "g6": "Gr`HOk",
+    "aliases": [
+      "q3",
+      "3 cube"
+    ],
+    "order": 8,
+    "size": 12,
+    "notes": "The 3-dimensional hypercube; bipartite."
+  },
+  {
+    "name": "petersen",
+    "g6": "IheA@GUAo",
+    "aliases": [
+      "petersen graph"
+    ],
+    "order": 10,
+    "size": 15,
+    "notes": "The Petersen graph: a brick in which every edge is quasi-b-invariant."
+  },
+  {
+    "name": "cubeplex",
+    "g6": "Ks?GOgSOpDL?",
+    "aliases": [
+      "cube plex"
+    ],
+    "order": 12,
+    "size": 18,
+    "notes": "12-vertex cubic brick; essentially 4-edge-connected, near-bipartite, and has quasi-b-invariant edges."
+  },
+  {
+    "name": "tietze",
+    "g6": "KhDGHEH_?__R",
+    "aliases": [
+      "tietze graph"
+    ],
+    "order": 12,
+    "size": 18,
+    "notes": "Tietze's graph."
+  },
+  {
+    "name": "twinplex",
+    "g6": "Ks?A@SUH?oh_",
+    "aliases": [
+      "twin plex"
+    ],
+    "order": 12,
+    "size": 18,
+    "notes": "12-vertex cubic brick; cyclic edge connectivity 5."
+  },
+  {
+    "name": "heawood",
+    "g6": "MsP@@?OC?T@I@c@W?",
+    "aliases": [
+      "heawood graph"
+    ],
+    "order": 14,
+    "size": 21,
+    "notes": "The Heawood graph, in the notebooks' labelling. Bipartite and so not a brick. Sage's own constructor yields MhEGHC@AI?_PC@_G_."
+  },
+  {
+    "name": "moebius_kantor",
+    "g6": "OsP@@?OC?S@K@c@G?I??R",
+    "aliases": [
+      "moebius kantor",
+      "mobius kantor"
+    ],
+    "order": 16,
+    "size": 24,
+    "notes": "The Moebius-Kantor graph, in the notebooks' labelling. Bipartite and so not a brick. Sage's own constructor yields OhCGKE?O@?ACAC@I?Q_AS."
+  },
+  {
+    "name": "blanusa_first_snark",
+    "g6": "QhEGGCP?G?_P?@?Cc?G?P_?dH??",
+    "aliases": [
+      "blanusa 1",
+      "first blanusa snark"
+    ],
+    "order": 18,
+    "size": 27,
+    "notes": "First Blanusa snark."
+  },
+  {
+    "name": "blanusa_second_snark",
+    "g6": "Q_C??A?_r?GOL?CIDC?IG@_?H?G",
+    "aliases": [
+      "blanusa 2",
+      "second blanusa snark"
+    ],
+    "order": 18,
+    "size": 27,
+    "notes": "Second Blanusa snark."
+  },
+  {
+    "name": "near_bipartite_brick_18",
+    "g6": "QsP@@?OC?T@G@_@C?GG@@?D??AW",
+    "aliases": [
+      "nb brick 18"
+    ],
+    "order": 18,
+    "size": 27,
+    "notes": "18-vertex near-bipartite essentially-4-edge-connected cubic brick with no quasi-b-invariant edges; cyclic edge connectivity 6."
+  },
+  {
+    "name": "pappus",
+    "g6": "QhEKA?_C?O?_?P?g?I?@S?DOAG_",
+    "aliases": [],
+    "order": 18,
+    "size": 27,
+    "notes": "The Pappus graph; bipartite."
+  },
+  {
+    "name": "snark_18_four_quasi",
+    "g6": "Q?hY@eOGG??B_??@g???T?a??@g",
+    "aliases": [
+      "snark 18 4qb"
+    ],
+    "order": 18,
+    "size": 27,
+    "notes": "18-vertex snark with exactly four quasi-b-invariant edges: (2,4), (3,8), (10,15), (13,17)."
+  },
+  {
+    "name": "snark_18_two_quasi",
+    "g6": "Q?gY@eOGGC?B_??@g_??DO?O?GW",
+    "aliases": [
+      "snark 18 2qb"
+    ],
+    "order": 18,
+    "size": 27,
+    "notes": "18-vertex snark with exactly two quasi-b-invariant edges."
+  },
+  {
+    "name": "desargues",
+    "g6": "ShCGGC@_K?G?G?CA@?_GC?_O@G_@G_?cO",
+    "aliases": [],
+    "order": 20,
+    "size": 30,
+    "notes": "The Desargues graph; bipartite."
+  },
+  {
+    "name": "dodecahedron",
+    "g6": "ShCHGD@?K?_@?@?C_GGG@??cG?G?GK_?C",
+    "aliases": [
+      "dodecahedral"
+    ],
+    "order": 20,
+    "size": 30,
+    "notes": "The dodecahedral graph."
+  },
+  {
+    "name": "flower_snark_5",
+    "g6": "ShCGHC@?GGg@?@?Gp?K??C?CA?G?_G?Cc",
+    "aliases": [
+      "flower snark",
+      "j5"
+    ],
+    "order": 20,
+    "size": 30,
+    "notes": "The flower snark J5."
+  },
+  {
+    "name": "snark_20_zero_quasi",
+    "g6": "S?gQ@eOOGC?AP??BO@@?GB????o?E???[",
+    "aliases": [
+      "snark 20 0qb"
+    ],
+    "order": 20,
+    "size": 30,
+    "notes": "20-vertex snark with no quasi-b-invariant edges."
+  },
+  {
+    "name": "cubic_brick_24",
+    "g6": "WsP@@?OC?O@?@?@??P?CC?P?@@?@O?@CO?S??CW???`???p",
+    "aliases": [],
+    "order": 24,
+    "size": 36,
+    "notes": "24-vertex cubic graph from the notebooks' brick list; not near-bipartite."
+  },
+  {
+    "name": "mcgee",
+    "g6": "WhCGGD@?G?`@_@??_GG_@??C?GGC?H??C?@@?C?GG??o?@@",
+    "aliases": [],
+    "order": 24,
+    "size": 36,
+    "notes": "The McGee graph."
+  },
+  {
+    "name": "nauru",
+    "g6": "WhCGGC@?G?o@_?O?C??_?A??CA?CA?AD??`O?CI??Og??`O",
+    "aliases": [],
+    "order": 24,
+    "size": 36,
+    "notes": "The Nauru graph; bipartite."
+  },
+  {
+    "name": "coxeter",
+    "g6": "[hCGGC@?G?_`O@??_?G?@??CG?G??G?AC?O@C??G???o??@_O?_GGC??@@?_C@?O",
+    "aliases": [],
+    "order": 28,
+    "size": 42,
+    "notes": "The Coxeter graph."
+  },
+  {
+    "name": "double_star_snark",
+    "g6": "]hCGHC@?GGg@?@?Gp?K????C???_?G??C??G?_?G???_?@G?C?@??@?_??H??C?@??@GC??OH?",
+    "aliases": [],
+    "order": 30,
+    "size": 45,
+    "notes": "The double star snark."
+  },
+  {
+    "name": "tutte_coxeter",
+    "g6": "]hCGGC@GG?_@?@A?_?G@@??E??GG?G?OC??@??GI???_O?@?@?@??A?a???G??@@?O??E?A??G",
+    "aliases": [
+      "levi graph"
+    ],
+    "order": 30,
+    "size": 45,
+    "notes": "The Tutte-Coxeter (Levi) graph; bipartite."
+  },
+  {
+    "name": "szekeres_snark",
+    "g6": "qhEGGCPQS??O????_?G?P??C?AG??G?OC?@H??_???C?????@?@?@?C????G???H????C???OG???DG???G?????G?????????O?_??@?G?????@?????Cc?????G????A@?????Ac?????O?@??????????@?C?????_C???????G??????C_?C????@??????@@???????S_",
+    "aliases": [],
+    "order": 50,
+    "size": 75,
+    "notes": "The Szekeres snark."
+  },
+  {
+    "name": "watkins_snark",
+    "g6": "qhCHGE@@?@HG?C??_?G?@??C?@G??G?_C??G???O?Cc???C?A?@?A??????G???D????C???_G???@?????G???DG?????_???_?_??A???????@?????A_?????G_???C@??????_?????S_??????O????A?C????@??_??????G??????A_??????@??G???A@???????h?",
+    "aliases": [],
+    "order": 50,
+    "size": 75,
+    "notes": "The Watkins snark."
+  }
+]

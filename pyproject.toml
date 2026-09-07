@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sagemath-mcp"
+version = "0.1.0"
+description = "MCP server exposing SageMath graph-theory invariants for matching covered graphs, bricks and snarks"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = ["mcp", "sagemath", "graph-theory", "matching-covered", "brick", "snark"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = ["fastmcp>=4.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+sagemath-mcp = "sagemath_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sagemath_mcp"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"src/sagemath_mcp/named_graphs.json" = "sagemath_mcp/named_graphs.json"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["sage: test requires a working SageMath installation"]
